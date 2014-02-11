@@ -11,6 +11,7 @@ module.exports = {
         app.routes.post = [];
         app.routes.delete = [];
 
+
         // https://github.com/focusaurus/express_code_structure/blob/master/app/server.js
         // This will look for route files with a .rt.js extension and add them to the app
         scan('./','.rt.js', function(err, files){
